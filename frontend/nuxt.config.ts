@@ -14,6 +14,13 @@ export default defineNuxtConfig({
       ]
     }
   },
+  nitro: {
+    preset: 'node-server'
+  },
+  server: {
+    host: '0.0.0.0',
+    port: 3000
+  },
   build: {
     transpile: ['vuetify']
   }
