@@ -59,7 +59,7 @@ jobs:
           npx wait-on http://127.0.0.1:3000
 
       - name: Install Playwright browser
-        run: npx playwright install --with-deps chromium
+        run: npx playwright install chromium
 
       - name: Capture frontend screenshot
         run: |
