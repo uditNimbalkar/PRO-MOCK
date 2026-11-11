@@ -1,0 +1,17 @@
+# Frontend
+frontend/node_modules
+frontend/.nuxt
+frontend/.output
+frontend/dist
+
+# Backend
+backend/target
+backend/.classpath
+backend/.project
+backend/.settings
+backend/.idea
+backend/.vscode
+
+# General
+.DS_Store
+*.log
